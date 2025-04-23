@@ -11,7 +11,9 @@ Este proyecto es una página estática desarrollada con HTML y CSS que utiliza F
 ├── index.html
 ├── pages/
 │ └── index.css
-├── images/ │
+├── fonts/
+│ └── Inter-Regular.woff2
+├── images/
 │ └── kalegin-michail-179870-unsplash.png
 └── favicon.ico
 

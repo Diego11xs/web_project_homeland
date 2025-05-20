@@ -16,5 +16,11 @@
 /* intro.css */
 @import url("../blocks/intro.css");
 
+/* photo-grid.css */
+@import url("../blocks/photo-grid.css");
+
+/* places.css */
+@import url("../blocks/places.css");
+
 /* footer.css */
 @import url("../blocks/footer.css");

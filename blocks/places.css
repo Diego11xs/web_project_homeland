@@ -111,11 +111,11 @@
 
   .place__button {
     display: flex;
-    padding: 13px 20px;
     align-items: flex-start;
+    padding: 15px;
     gap: 10px;
-    border-radius: 4px;
-    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+    border-radius: 5px;
+    background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
   }
 
@@ -280,11 +280,11 @@
 
   .place__button {
     display: flex;
-    padding: 13px 20px;
     align-items: flex-start;
+    padding: 15px;
     gap: 10px;
-    border-radius: 4px;
-    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+    border-radius: 5px;
+    background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
   }
 
@@ -426,13 +426,11 @@
 
   .place__button {
     display: flex;
-    width: 288px;
-    height: 48px;
-    padding: 15px 46px;
-    align-items: center;
+    align-items: flex-start;
+    padding: 15px;
     gap: 10px;
-    border-radius: 4px;
-    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+    border-radius: 5px;
+    background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
   }
 

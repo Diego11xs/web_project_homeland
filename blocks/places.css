@@ -88,7 +88,7 @@
     margin: 0;
   }
 
-  .place__link {
+  .place__button {
     text-decoration: none;
     grid-area: button;
     font-size: 18px;
@@ -103,7 +103,7 @@
     padding: 13px 20px;
   }
 
-  .place__link:hover {
+  .place__button:hover {
     background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
   }
 }
@@ -198,7 +198,7 @@
     margin: 0;
   }
 
-  .place__link {
+  .place__button {
     text-decoration: none;
     grid-area: button;
     font-size: 18px;
@@ -213,7 +213,7 @@
     padding: 13px 20px;
   }
 
-  .place__link:hover {
+  .place__button:hover {
     background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
   }
 }

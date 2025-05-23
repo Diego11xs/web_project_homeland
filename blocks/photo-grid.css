@@ -1,4 +1,9 @@
 @media screen and (min-width: 769px) {
+  .photo {
+    width: 100%;
+    overflow: hidden;
+  }
+
   .photo__grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -39,6 +44,10 @@
 }
 
 @media screen and (max-width: 320px) {
+  .photo {
+    width: 100%;
+    overflow: hidden;
+  }
   .photo__grid {
     display: grid;
     grid-template-columns: repeat(1, 8fr);

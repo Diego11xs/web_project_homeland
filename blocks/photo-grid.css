@@ -1,22 +1,19 @@
-.photo {
-  width: 100%;
-  overflow: hidden;
-}
-
-.photo__grid {
+.photo-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   /* grid-template-rows: auto; */
   gap: 16px;
+  width: 100%;
+  overflow: hidden;
 }
 
-.photo__gallery {
+.photo-grid__gallery {
   margin: 0;
   width: 284px;
   height: 213px;
 }
 
-.photo__image {
+.photo-grid__image {
   width: 284px;
   height: 213px;
 }

@@ -1,4 +1,6 @@
 .place {
+  padding: 80px;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 36vw auto;
@@ -7,7 +9,7 @@
     "image paragraph"
     "button paragraph";
   grid-gap: 48px 40px;
-  max-width: 100%;
+  max-width: 1100px;
 }
 
 .place__title {
@@ -75,8 +77,6 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 4px;
   padding: 13px 20px;
@@ -84,6 +84,8 @@
   cursor: pointer;
   max-width: max-content;
   height: fit-content;
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .place__button:hover {

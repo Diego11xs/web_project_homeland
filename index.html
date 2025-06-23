@@ -3,45 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Diego Granados" />
-    <meta name="description" content="Aprende de Kentucky y Burundi" />
-    <meta name="keywords" content="viaje Burundi Kentucky Gales Ucrania" />
-    <title>De Patria a Patria</title>
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="description" content="Pagina de Galeria de arte" />
+    <meta name="author" content="Cesar Rodriguez" />
+    <meta name="keywords" content="HTML, CSS" />
+
+    <link rel="stylesheet" href="pages/index.css" />
+
+    <title>Project Homeland</title>
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <div class="header__logo">
-          <img src="./images/logocompleto.svg" alt="icono" />
+        <img src="images/logo.svg" alt="" class="header__logo" />
+        <div class="header__lead">
+          <h1 class="header__lead-title">De patria a patria</h1>
+          <p class="header__lead-subtitle">
+            Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
+          </p>
+          <img
+            src="images/ImagenLead.jpg"
+            alt="Foto de paisaje"
+            class="header__lead-image"
+          />
         </div>
       </header>
       <main class="content">
-        <section class="lead">
-          <h1 class="lead__title">De patria a patria</h1>
-          <h2 class="lead__subtitle">
-            Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
-          </h2>
-          <img
-            src="./images/kalegin-michail-179870-unsplash.png"
-            class="lead__image"
-            alt="Aprende de Kentucky y Burundi"
-          />
-        </section>
         <section class="intro">
-          <h3 class="intro__title">
+          <h2 class="intro__title">
             Conoce un poco mejor los lugares de los que proceden tus colegas en
             línea
-          </h3>
+          </h2>
           <p class="intro__text">
             Todo ser humano es un artista, un ser de la libertad, llamado a
             participar en la transformación y reforma de las condiciones, el
-            pensamiento y las estructuras que conforman e influyen en nuestras
+            pensamiento y las estructuras que conforman en influyen en nuestras
             vidas.
           </p>
-          <p class="intro__text intro__text-right">— Joseph Beuys</p>
-          <p class="intro__text">
+          <p class="intro__quote">―Joseph Beuys</p>
+          <p class="intro__description">
             La ciudad de TripleTen ha reunido a profesionales de diferentes
             rincones del mundo. Hoy, la Galería de Arte TripleTen se enorgullece
             de presentar historias y fotografías de algunas de las personas que
@@ -53,163 +52,169 @@
             nos alegra que seas nuestro vecino.
           </p>
         </section>
+        <section class="photo-grid">
+          <img src="images/1img.jpg" alt="" class="photo-grid__item" />
+          <img src="images/2img.jpg" alt="" class="photo-grid__item" />
+          <img src="images/3img.jpg" alt="" class="photo-grid__item" />
+          <img src="images/4img.jpg" alt="" class="photo-grid__item" />
+          <img src="images/5img.jpg" alt="" class="photo-grid__item" />
+          <img src="images/6img.jpg" alt="" class="photo-grid__item" />
+          <img src="images/7img.jpg" alt="" class="photo-grid__item" />
+          <img src="images/8img.jpg" alt="" class="photo-grid__item" />
+        </section>
+
+        <section class="places">
+          <div class="place">
+            <h2 class="place__title">Cricieth, Gales</h2>
+            <div class="place__artist">
+              <h3>Artista</h3>
+              <p>Steffan Warren, editor jefe</p>
+              <p>Kseniya Glagoleva, gerente de proyectos</p>
+            </div>
+            <img src="images/2img.jpg" alt="" class="place__img" />
+            <div class="place__text">
+              <p>
+                Las ruinas medievales del castillo de Cricieth dominan la ciudad
+                desde una roca que extiende sobre el mar. Se cree que fue
+                construido por Llewelyn el Grande en el S. XIII. 800 años
+                después, la autodenominada Perla de Gales en las costas de
+                Snowdonia, se ha convertido en un popular destino turístico
+                durante los meses de verano.
+              </p>
+              <p>
+                A pocos pasos de camino al castillo, puedes disfrutar de los
+                mejores helados del mundo en Cadwalader's, cuyo ingrediente
+                secreto se rumorea que son algas marinas de la localidad. Otra
+                cosa por la que es famosa Cricieth es por haber ganado el premio
+                *Gales en flor* durante cinco años seguidos por sus
+                espectaculares muestras florales alrededor de la ciudad. También
+                vio nacer a David Lloyd George, el único galés que ha sido
+                Primer Ministro del Reino Unido.
+              </p>
+            </div>
+            <a
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              class="place__link"
+            >
+              Compra esta obra como NFT
+            </a>
+          </div>
+
+          <div class="place">
+            <h2 class="place__title">Berea, EE. UU.</h2>
+            <div class="place__artist">
+              <h3>Artista</h3>
+              <p>Travis Turner, autor y editor</p>
+            </div>
+            <img src="images/Berea.jpg" alt="" class="place__img" />
+            <div class="place__text">
+              <p>
+                Berea es una pequeña ciudad ubicada en la parte central de
+                Kentucky. La ciudad está rodeada por hermosos bosques y campos.
+                Es conocida como la capital de la artesanía del estado, y sus
+                visitantes hallarán infinitas posibilidades para ir de compras:
+                tiendas de joyas, velas y artículos de madera artesanales;
+                galerías, talleres de vidrio y más. La ciudad celebra un
+                festival anual que rinde tributo al "spoonbread", un platillo
+                local hecho de pan de maíz y que se sirve con una cuchara de
+                madera.
+              </p>
+              <p>
+                Aunque, probablemente es mejor conocida por su universidad. El
+                Berea College fue fundado en 1855 y fue la primera universidad
+                sureña integrada racialmente, así como la primera en ser
+                coeducacional. Algo que en cierta manera la hace única, es que
+                no cobra colegiatura: cada estudiante recibe una beca del 100%.
+              </p>
+            </div>
+            <a
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              class="place__link"
+            >
+              Compra esta obra como NFT
+            </a>
+          </div>
+          <div class="place">
+            <h2 class="place__title">Muramvya, Burundi</h2>
+            <div class="place__artist">
+              <h3>Artista</h3>
+              <p>Grevisse Kenguruka, editor técnico</p>
+            </div>
+            <img src="images/Muramvya.jpg" alt="" class="place__img" />
+            <div class="place__text">
+              <p>
+                Muramvya es una de las 18 provincias de Burundi. Durante la
+                época del reino, Muramvya fue su capital; y en 2017, gracias a
+                su paisaje cultural y natural, se añadió a la Lista provisional
+                de patrimonio mundial de la UNESCO. Se encuentra ubicada en el
+                centro de Burundi, entre las capitales política y económica del
+                país.
+              </p>
+              <p>
+                Su clima es más bien frío durante la noche, pero durante el día,
+                podrías pensar que estás en el paraíso. A sus 2,665 metros
+                (8,743 ft) sobre el nivel del mar, el Monte Teza es uno de los
+                lugares más fríos de la provincia. Pero es justo esa brisa
+                fresca la que da pie a una de las más grandes plantaciones de té
+                y café del país, y que representa la mayoría de las
+                exportaciones de Burundi.
+              </p>
+              <p>
+                El Parque nacional de Kibira, una de las mayores reservas de
+                vida silvestre para los simios, ocupa parte de cuatro
+                provincias, incluyendo Muramvya. Este parque nacional se
+                encuentra en las cúspides de las hermosas montañas de la
+                Divisoria Congo-Nilo, cuyas alturas oscilan entre 1,550 y 2,660
+                metros. Está lleno de hermosa vegetación, y es una fuente para
+                los diversos ríos y arroyos que proporcionan agua alrededor del
+                país.
+              </p>
+            </div>
+            <a
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              class="place__link"
+            >
+              Compra esta obra como NFT
+            </a>
+          </div>
+          <div class="place">
+            <h2 class="place__title">Guadalajara, Jalisco</h2>
+            <div class="place__artist">
+              <h3>Artista</h3>
+              <p>Diego Granados</p>
+            </div>
+            <img src="images/Guadalajara.png" alt="" class="place__img" />
+            <div class="place__text">
+              <p>
+                Guadalajara es una vibrante ciudad ubicada en el occidente de
+                México, en el estado de Jalisco. Conocida por su rica historia y
+                su arquitectura colonial, la ciudad combina modernidad con
+                tradición. Es famosa por ser cuna del mariachi y del tequila,
+                dos de los íconos culturales más representativos del país. Los
+                visitantes pueden explorar mercados artesanales, plazas llenas
+                de vida, museos y catedrales de gran valor histórico.
+              </p>
+              <p>
+                Además, Guadalajara es un importante centro educativo y
+                tecnológico. Alberga a la Universidad de Guadalajara, una de las
+                más importantes del país, y es reconocida como el "Silicon
+                Valley mexicano" debido a su creciente industria tecnológica.
+                Cada año, la ciudad celebra la Feria Internacional del Libro,
+                una de las más grandes del mundo en lengua española.
+              </p>
+            </div>
+
+            <a
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              class="place__link"
+            >
+              Compra esta obra como NFT
+            </a>
+          </div>
+        </section>
       </main>
-      <section class="photo-grid">
-        <img src="./images/Photo1.png" alt="" class="photo-grid__image" />
-        <img src="./images/Photo2.png" alt="" class="photo-grid__image" />
-        <img src="./images/Photo3.png" alt="" class="photo-grid__image" />
-        <img src="./images/Photo4.png" alt="" class="photo-grid__image" />
-        <img src="./images/Photo5.png" alt="" class="photo-grid__image" />
-        <img src="./images/Photo6.png" alt="" class="photo-grid__image" />
-        <img src="./images/Photo7.png" alt="" class="photo-grid__image" />
-        <img src="./images/Photo8.png" alt="" class="photo-grid__image" />
-      </section>
-      <section class="places">
-        <div class="place">
-          <h2 class="place__title">Cricieth, Gales</h2>
-          <div class="place__artist">
-            <h3>Artista</h3>
-            <p>Steffan Warren, editor jefe</p>
-            <p>Kseniya Glagoleva, gerente de proyectos</p>
-          </div>
-          <img src="images/Cricieth.png" alt="" class="place__img" />
-          <div class="place__paragraphs">
-            <p>
-              Las ruinas medievales del castillo de Cricieth dominan la ciudad
-              desde una roca que extiende sobre el mar. Se cree que fue
-              construido por Llewelyn el Grande en el S. XIII. 800 años después,
-              la autodenominada Perla de Gales en las costas de Snowdonia, se ha
-              convertido en un popular destino turístico durante los meses de
-              verano.
-            </p>
-            <p>
-              A pocos pasos de camino al castillo, puedes disfrutar de los
-              mejores helados del mundo en Cadwalader's, cuyo ingrediente
-              secreto se rumorea que son algas marinas de la localidad. Otra
-              cosa por la que es famosa Cricieth es por haber ganado el premio
-              *Gales en flor* durante cinco años seguidos por sus espectaculares
-              muestras florales alrededor de la ciudad. También vio nacer a
-              David Lloyd George, el único galés que ha sido Primer Ministro del
-              Reino Unido.
-            </p>
-          </div>
-          <a
-            href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-            class="place__link"
-          >
-            Compra esta obra como NFT
-          </a>
-        </div>
-
-        <div class="place">
-          <h2 class="place__title">Berea, EE. UU.</h2>
-          <div class="place__artist">
-            <h3>Artista</h3>
-            <p>Travis Turner, autor y editor</p>
-          </div>
-          <img src="images/Berea.png" alt="" class="place__img" />
-          <div class="place__paragraphs">
-            <p>
-              Berea es una pequeña ciudad ubicada en la parte central de
-              Kentucky. La ciudad está rodeada por hermosos bosques y campos. Es
-              conocida como la capital de la artesanía del estado, y sus
-              visitantes hallarán infinitas posibilidades para ir de compras:
-              tiendas de joyas, velas y artículos de madera artesanales;
-              galerías, talleres de vidrio y más. La ciudad celebra un festival
-              anual que rinde tributo al "spoonbread", un platillo local hecho
-              de pan de maíz y que se sirve con una cuchara de madera.
-            </p>
-            <p>
-              Aunque, probablemente es mejor conocida por su universidad. El
-              Berea College fue fundado en 1855 y fue la primera universidad
-              sureña integrada racialmente, así como la primera en ser
-              coeducacional. Algo que en cierta manera la hace única, es que no
-              cobra colegiatura: cada estudiante recibe una beca del 100%.
-            </p>
-          </div>
-          <a
-            href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-            class="place__link"
-          >
-            Compra esta obra como NFT
-          </a>
-        </div>
-
-        <div class="place">
-          <h2 class="place__title">Muramvya, Burundi</h2>
-          <div class="place__artist">
-            <h3>Artista</h3>
-            <p>Grevisse Kenguruka, editor técnico</p>
-          </div>
-          <img src="images/Muramvya.png" alt="" class="place__img" />
-          <div class="place__paragraphs">
-            <p>
-              Muramvya es una de las 18 provincias de Burundi. Durante la época
-              del reino, Muramvya fue su capital; y en 2017, gracias a su
-              paisaje cultural y natural, se añadió a la Lista provisional de
-              patrimonio mundial de la UNESCO. Se encuentra ubicada en el centro
-              de Burundi, entre las capitales política y económica del país.
-            </p>
-            <p>
-              Su clima es más bien frío durante la noche, pero durante el día,
-              podrías pensar que estás en el paraíso. A sus 2,665 metros (8,743
-              ft) sobre el nivel del mar, el Monte Teza es uno de los lugares
-              más fríos de la provincia. Pero es justo esa brisa fresca la que
-              da pie a una de las más grandes plantaciones de té y café del
-              país, y que representa la mayoría de las exportaciones de Burundi.
-            </p>
-            <p>
-              El Parque nacional de Kibira, una de las mayores reservas de vida
-              silvestre para los simios, ocupa parte de cuatro provincias,
-              incluyendo Muramvya. Este parque nacional se encuentra en las
-              cúspides de las hermosas montañas de la Divisoria Congo-Nilo,
-              cuyas alturas oscilan entre 1,550 y 2,660 metros. Está lleno de
-              hermosa vegetación, y es una fuente para los diversos ríos y
-              arroyos que proporcionan agua alrededor del país.
-            </p>
-          </div>
-          <a
-            href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-            class="place__link"
-          >
-            Compra esta obra como NFT
-          </a>
-        </div>
-
-        <div class="place">
-          <h2 class="place__title">Guadalajara, Jalisco</h2>
-          <div class="place__artist">
-            <h3>Artista</h3>
-            <p>Diego Granados</p>
-          </div>
-          <img
-            src="images/Guadalajara.png"
-            alt="Catedral de Guadalajara"
-            class="place__img"
-          />
-          <div class="place__paragraphs">
-            <p class="place__paragraph">
-              Guadalajara es una vibrante ciudad ubicada en el occidente de
-              México, en el estado de Jalisco. Conocida por su rica historia y
-              su arquitectura colonial, la ciudad combina modernidad con
-              tradición. Es famosa por ser cuna del mariachi y del tequila, dos
-              de los íconos culturales más representativos del país. Los
-              visitantes pueden explorar mercados artesanales, plazas llenas de
-              vida, museos y catedrales de gran valor histórico.
-            </p>
-            <p class="place__paragraph">
-              Además, Guadalajara es un importante centro educativo y
-              tecnológico. Alberga a la Universidad de Guadalajara, una de las
-              más importantes del país, y es reconocida como el "Silicon Valley
-              mexicano" debido a su creciente industria tecnológica. Cada año,
-              la ciudad celebra la Feria Internacional del Libro, una de las más
-              grandes del mundo en lengua española.
-            </p>
-          </div>
-        </div>
-      </section>
       <footer class="footer">
-        <p class="footer__copyright">© 2025. Diego Granados [Nox]</p>
+        <p class="footer__text">© 2025. Diego Granados [Nox]</p>
       </footer>
     </div>
   </body>

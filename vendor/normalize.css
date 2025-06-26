@@ -10,7 +10,6 @@
 
 html {
   line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Secciones
@@ -198,6 +197,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+  appearance: button; /* Estándar */
   -webkit-appearance: button;
 }
 
@@ -290,8 +290,9 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  appearance: textfield;
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
 }
 
 /**
@@ -308,8 +309,9 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  appearance: button;
+  -webkit-appearance: button;
+  font: inherit;
 }
 
 /* Interactivo
